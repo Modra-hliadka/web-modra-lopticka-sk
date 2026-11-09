@@ -32,3 +32,35 @@ h3,
 .font-display {
   font-family: var(--font-display);
 }
+
+@keyframes squeeze {
+  0%,
+  52%,
+  100% {
+    transform: scale(1, 1);
+  }
+  58% {
+    transform: scale(1.09, 0.85);
+  }
+  66% {
+    transform: scale(0.93, 1.1);
+  }
+  74% {
+    transform: scale(1.03, 0.97);
+  }
+  82% {
+    transform: scale(1, 1);
+  }
+}
+
+.animate-squeeze {
+  transform-origin: 50% 54%;
+  transform-box: fill-box;
+  animation: squeeze 4.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-squeeze {
+    animation: none;
+  }
+}

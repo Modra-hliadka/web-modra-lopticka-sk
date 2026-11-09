@@ -25,21 +25,23 @@ export function BlueBall({ className }: BlueBallProps) {
           <stop offset="100%" stopColor="#0a1733" stopOpacity="0" />
         </radialGradient>
       </defs>
-      <ellipse cx="200" cy="360" rx="120" ry="18" fill="url(#ballShadow)" />
-      <circle cx="200" cy="190" r="150" fill="url(#ballBody)" />
-      <circle cx="200" cy="190" r="150" fill="url(#ballShine)" />
-      <text
-        x="200"
-        y="202"
-        textAnchor="middle"
-        fontFamily="DM Sans, system-ui, sans-serif"
-        fontWeight="700"
-        fontSize="26"
-        fill="#ffffff"
-        letterSpacing="0.5"
-      >
-        #modralopticka
-      </text>
+      <ellipse className="animate-squeeze" cx="200" cy="360" rx="120" ry="18" fill="url(#ballShadow)" />
+      <g className="animate-squeeze">
+        <circle cx="200" cy="190" r="150" fill="url(#ballBody)" />
+        <circle cx="200" cy="190" r="150" fill="url(#ballShine)" />
+        <text
+          x="200"
+          y="202"
+          textAnchor="middle"
+          fontFamily="DM Sans, system-ui, sans-serif"
+          fontWeight="700"
+          fontSize="26"
+          fill="#ffffff"
+          letterSpacing="0.5"
+        >
+          #modralopticka
+        </text>
+      </g>
     </svg>
   )
 }
