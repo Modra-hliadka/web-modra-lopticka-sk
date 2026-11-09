@@ -16,9 +16,9 @@ export function Footer() {
             <p className="mt-4 max-w-xs text-sm">
               Modrá hliadka
               <br />
-              Karpatské námestie 7770/10A
+              Jurská 19
               <br />
-              831 06 Bratislava-Rača
+              831 02 Bratislava-Nové mesto
               <br />
               IČO: 54 798 841
             </p>
