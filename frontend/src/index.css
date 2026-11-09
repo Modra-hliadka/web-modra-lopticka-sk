@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-sans: "DM Sans", system-ui, "Segoe UI", sans-serif;
+
+  --color-navy-950: #141f3a;
+  --color-navy-900: #1b2b52;
+  --color-navy-800: #243a66;
+  --color-navy-700: #334d88;
+  --color-navy-600: #3d5a9c;
+  --color-accent-600: #1e73be;
+  --color-accent-500: #2f8fe0;
+  --color-sky-100: #e1f3fd;
+  --color-sky-50: #f3faff;
+  --color-ink: #2a2f3a;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-ink);
+  background: #ffffff;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display);
+}
