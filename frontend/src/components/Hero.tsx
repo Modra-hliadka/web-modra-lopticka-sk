@@ -5,10 +5,7 @@ export function Hero() {
     <section id="top" className="bg-gradient-to-b from-sky-50 to-white">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 pt-12 pb-16 sm:px-6 sm:pt-16 lg:grid-cols-2 lg:gap-16 lg:pt-20">
         <div>
-          <p className="font-display text-sm uppercase tracking-[0.2em] text-accent-600">
-            Exkluzívne od Modrej hliadky
-          </p>
-          <h1 className="font-display mt-3 text-4xl leading-tight text-navy-900 sm:text-5xl lg:text-6xl">
+          <h1 className="font-display text-4xl leading-tight text-navy-900 sm:text-5xl lg:text-6xl">
             Modrá loptička pre vašu firmu
           </h1>
           <p className="mt-5 max-w-xl text-lg text-navy-800/80">
@@ -30,9 +27,6 @@ export function Hero() {
               Zistiť viac
             </a>
           </div>
-          <p className="mt-4 text-sm text-navy-800/60">
-            Minimálna podpora od 10&nbsp;€/ks · doprava zdarma · logo vašej firmy na krabičke
-          </p>
         </div>
 
         <div className="relative mx-auto aspect-square w-full max-w-sm">
