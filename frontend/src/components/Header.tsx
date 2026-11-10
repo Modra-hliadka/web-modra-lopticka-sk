@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../assets/logo/modra-hliadka-logo.svg'
+import logo from '../assets/logo/modra-lopticka-lockup.png'
 
 const NAV_LINKS = [
   { href: '#co-to-je', label: 'Čo to je?' },
@@ -15,7 +15,7 @@ export function Header() {
     <header className="sticky top-0 z-50 border-b border-navy-700/10 bg-white/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#top" className="flex items-center gap-2">
-          <img src={logo} alt="Modrá hliadka" className="h-7 w-auto sm:h-8" />
+          <img src={logo} alt="Modrá loptička" className="h-6 w-auto sm:h-7" />
         </a>
 
         <nav className="hidden items-center gap-6 text-sm font-medium text-navy-800 md:flex">
